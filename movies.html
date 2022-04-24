@@ -1,0 +1,1195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- title -->
+        <title>Cinemax</title>
+        <!-- CSS Stylesheet -->
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- Fav icon -->
+        <link rel="shortcut icon" href="">
+        <!-- Import-poppins-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Import-Monoton-Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    
+    <!-- Using-Font-Awesome -->
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    
+    <!-- CSS-Swiper -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    
+    
+    </head>
+    <body>
+        <!-- Navigation -->
+        <nav class="navigation">
+            <!-- menu btn -->
+            <input type="checkbox" class="menu-btn" id="menu-btn">
+            <label for="menu-btn" class="menu-icon">
+                <span class="nav-icon"></span>
+            </label>
+    
+            <!-- logo -->
+            <a href="index.html" class="logo">
+                Cinemax
+            </a>
+            <!-- menu -->
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="movies.html">Movies</a></li>
+                <li><a href="cinema.html">Cinema</a></li>
+                <li><a href="rewards.html">Rewards</a></li>
+            </ul>
+    
+            <!-- search box -->
+            <form action="" class="search-box">
+                <!-- input -->
+                <input type="text" name="search" placeholder="Search Movie" class="search-input" required/>
+                <!-- btn -->
+                <button type="submit">
+                    <i class="fas fa-search"></i>
+                </button class>
+            </form>
+        </nav>
+        <!-- nav end --> 
+
+        <section style="min-height: 800px;">
+            <h3 style="color: white;">SESSION TIMES</h3>
+
+            <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'Mon')">Mon</button>
+            <button class="tablinks" onclick="openCity(event, 'Tue')">Tue</button>
+            <button class="tablinks" onclick="openCity(event, 'Wed')">Wed</button>
+            <button class="tablinks" onclick="openCity(event, 'Thur')">Thur</button>
+            <button class="tablinks" onclick="openCity(event, 'Fri')">Fri</button>
+            <button class="tablinks" onclick="openCity(event, 'Sat')">Sat</button>
+            <button class="tablinks" onclick="openCity(event, 'Sun')">Sun</button>
+            </div>
+
+            <div id="Mon" class="tabcontent">
+            <h3>Mon</h3>
+            <p>
+                <table class="table">
+                    <tr>
+                    <th>Movies</th>
+                    <th>Auckland</th>
+                    <th>Wellington</th>
+                    </tr>
+                    <tr>
+                    <td>Eternals</td>
+                    <td>10:00</td>
+                    <td>10:15</td>
+                    </tr>
+                    <tr>
+                    <td>Eternals</td>
+                    <td>13:00</td>
+                    <td>13:15</td>
+                    </tr>
+                    <tr>
+                    <td>Eternals</td>
+                    <td>16:00</td>
+                    <td>16:15</td>
+                    </tr>
+                    <tr>
+                    <td>Eternals</td>
+                    <td>19:00</td>
+                    <td>19:15</td>
+                    </tr>
+                    <tr>
+                    <td>Venom</td>
+                    <td>10:30</td>
+                    <td>10:45</td>
+                    </tr>
+                    <tr>
+                    <td>Venom</td>
+                    <td>13:30</td>
+                    <td>13:45</td>
+                    </tr>
+                    <tr>
+                    <td>Venom</td>
+                    <td>16:30</td>
+                    <td>16:45</td>
+                    </tr>
+                    <tr>
+                    <td>Venom</td>
+                    <td>19:30</td>
+                    <td>19:45</td>
+                    </tr>
+                    <tr>
+                    <td>No Time To Die</td>
+                    <td>11:00</td>
+                    <td>11:15</td>
+                    </tr>
+                    <tr>
+                    <td>No time to Die</td>
+                    <td>14:00</td>
+                    <td>14:15</td>
+                    </tr>
+                    <tr>
+                    <td>No Time To Die</td>
+                    <td>17:00</td>
+                    <td>17:15</td>
+                    </tr>
+                    <tr>
+                    <td>No time To Die</td>
+                    <td>18:00</td>
+                    <td>18:15</td>
+                    </tr>
+                    <tr>
+                    <td>The Power of Dog</td>
+                    <td>11:30</td>
+                    <td>11:45</td>
+                    </tr>
+                    <tr>
+                    <td>The Power of Dog</td>
+                    <td>14:30</td>
+                    <td>14:45</td>
+                    </tr>
+                    <tr>
+                    <td>The Power of Dog</td>
+                    <td>17:30</td>
+                    <td>17:45</td>
+                    </tr>
+                    <tr>
+                    <td>The Power of Dog</td>
+                    <td>20:30</td>
+                    <td>20:45</td>
+                    </tr>
+                    <tr>
+                    <td>Rone's Gone Wrong</td>
+                    <td>12:00</td>
+                    <td>12:15</td>
+                    </tr>
+                    <tr>
+                    <td>Rone's Gone Wrong</td>
+                    <td>15:00</td>
+                    <td>15:15</td>
+                    </tr>
+                    <tr>
+                    <td>Rone's Gone Wrong</td>
+                    <td>18:00</td>
+                    <td>18:15</td>
+                    </tr>
+                    <tr>
+                    <td>Rone's Gone Wrong</td>
+                    <td>21:00</td>
+                    <td>21:15</td>
+                    </tr>
+                    <tr>
+                    <td>A Boy Called Christmas</td>
+                    <td>12:30</td>
+                    <td>12:45</td>
+                    </tr>
+                    <tr>
+                    <td>A Boy Called Christmas</td>
+                    <td>15:30</td>
+                    <td>15:45</td>
+                    </tr>
+                    <tr>
+                    <td>A Boy Called Christmas</td>
+                    <td>18:30</td>
+                    <td>18:45</td>
+                    </tr>
+                    <tr>
+                    <td>A Boy Called Christmas</td>
+                    <td>21:30</td>
+                    <td>21:45</td>
+                    </tr>
+                    <tr>
+                    <td>Paw Patrol: The Movie</td>
+                    <td>12:30</td>
+                    <td>12:45</td>
+                    </tr>
+                    <tr>
+                    <td>Paw Patrol: The Movie</td>
+                    <td>15:30</td>
+                    <td>15:45</td>
+                    </tr>
+                    <tr>
+                    <td>Paw Patrol: The Movie</td>
+                    <td>18:30</td>
+                    <td>18:45</td>
+                    </tr>
+                    <tr>
+                    <td>Paw Patrol: The Movie</td>
+                    <td>21:30</td>
+                    <td>21:45</td>
+                    </tr>
+                    
+                    
+                </table>
+            </p>
+            </div>
+
+            <div id="Tue" class="tabcontent">
+            <h3>Tues</h3>
+            <p>
+                <table class="table">
+                    <tr>
+                    <th>Movies</th>
+                    <th>Auckland</th>
+                    <th>Wellington</th>
+                    </tr>
+                    <tr>
+                    <td>Eternals</td>
+                    <td>10:00</td>
+                    <td>10:15</td>
+                    </tr>
+                    <tr>
+                    <td>Eternals</td>
+                    <td>13:00</td>
+                    <td>13:15</td>
+                    </tr>
+                    <tr>
+                    <td>Eternals</td>
+                    <td>16:00</td>
+                    <td>16:15</td>
+                    </tr>
+                    <tr>
+                    <td>Eternals</td>
+                    <td>19:00</td>
+                    <td>19:15</td>
+                    </tr>
+                    <tr>
+                    <td>Venom</td>
+                    <td>10:30</td>
+                    <td>10:45</td>
+                    </tr>
+                    <tr>
+                    <td>Venom</td>
+                    <td>13:30</td>
+                    <td>13:45</td>
+                    </tr>
+                    <tr>
+                    <td>Venom</td>
+                    <td>16:30</td>
+                    <td>16:45</td>
+                    </tr>
+                    <tr>
+                    <td>Venom</td>
+                    <td>19:30</td>
+                    <td>19:45</td>
+                    </tr>
+                    <tr>
+                    <td>No Time To Die</td>
+                    <td>11:00</td>
+                    <td>11:15</td>
+                    </tr>
+                    <tr>
+                    <td>No time to Die</td>
+                    <td>14:00</td>
+                    <td>14:15</td>
+                    </tr>
+                    <tr>
+                    <td>No Time To Die</td>
+                    <td>17:00</td>
+                    <td>17:15</td>
+                    </tr>
+                    <tr>
+                    <td>No time To Die</td>
+                    <td>18:00</td>
+                    <td>18:15</td>
+                    </tr>
+                    <tr>
+                    <td>The Power of Dog</td>
+                    <td>11:30</td>
+                    <td>11:45</td>
+                    </tr>
+                    <tr>
+                    <td>The Power of Dog</td>
+                    <td>14:30</td>
+                    <td>14:45</td>
+                    </tr>
+                    <tr>
+                    <td>The Power of Dog</td>
+                    <td>17:30</td>
+                    <td>17:45</td>
+                    </tr>
+                    <tr>
+                    <td>The Power of Dog</td>
+                    <td>20:30</td>
+                    <td>20:45</td>
+                    </tr>
+                    <tr>
+                    <td>Rone's Gone Wrong</td>
+                    <td>12:00</td>
+                    <td>12:15</td>
+                    </tr>
+                    <tr>
+                    <td>Rone's Gone Wrong</td>
+                    <td>15:00</td>
+                    <td>15:15</td>
+                    </tr>
+                    <tr>
+                    <td>Rone's Gone Wrong</td>
+                    <td>18:00</td>
+                    <td>18:15</td>
+                    </tr>
+                    <tr>
+                    <td>Rone's Gone Wrong</td>
+                    <td>21:00</td>
+                    <td>21:15</td>
+                    </tr>
+                    <tr>
+                    <td>A Boy Called Christmas</td>
+                    <td>12:30</td>
+                    <td>12:45</td>
+                    </tr>
+                    <tr>
+                    <td>A Boy Called Christmas</td>
+                    <td>15:30</td>
+                    <td>15:45</td>
+                    </tr>
+                    <tr>
+                    <td>A Boy Called Christmas</td>
+                    <td>18:30</td>
+                    <td>18:45</td>
+                    </tr>
+                    <tr>
+                    <td>A Boy Called Christmas</td>
+                    <td>21:30</td>
+                    <td>21:45</td>
+                    </tr>
+                    <tr>
+                    <td>Paw Patrol: The Movie</td>
+                    <td>12:30</td>
+                    <td>12:45</td>
+                    </tr>
+                    <tr>
+                    <td>Paw Patrol: The Movie</td>
+                    <td>15:30</td>
+                    <td>15:45</td>
+                    </tr>
+                    <tr>
+                    <td>Paw Patrol: The Movie</td>
+                    <td>18:30</td>
+                    <td>18:45</td>
+                    </tr>
+                    <tr>
+                    <td>Paw Patrol: The Movie</td>
+                    <td>21:30</td>
+                    <td>21:45</td>
+                    </tr>
+                    
+                    
+                </table>
+            </p>
+            </div>
+
+            <div id="Wed" class="tabcontent">
+            <h3>Tokyo</h3>
+            <p>
+                <table class="table">
+                    <tr>
+                    <th>Movies</th>
+                    <th>Auckland</th>
+                    <th>Wellington</th>
+                    </tr>
+                    <tr>
+                    <td>Eternals</td>
+                    <td>10:00</td>
+                    <td>10:15</td>
+                    </tr>
+                    <tr>
+                    <td>Eternals</td>
+                    <td>13:00</td>
+                    <td>13:15</td>
+                    </tr>
+                    <tr>
+                    <td>Eternals</td>
+                    <td>16:00</td>
+                    <td>16:15</td>
+                    </tr>
+                    <tr>
+                    <td>Eternals</td>
+                    <td>19:00</td>
+                    <td>19:15</td>
+                    </tr>
+                    <tr>
+                    <td>Venom</td>
+                    <td>10:30</td>
+                    <td>10:45</td>
+                    </tr>
+                    <tr>
+                    <td>Venom</td>
+                    <td>13:30</td>
+                    <td>13:45</td>
+                    </tr>
+                    <tr>
+                    <td>Venom</td>
+                    <td>16:30</td>
+                    <td>16:45</td>
+                    </tr>
+                    <tr>
+                    <td>Venom</td>
+                    <td>19:30</td>
+                    <td>19:45</td>
+                    </tr>
+                    <tr>
+                    <td>No Time To Die</td>
+                    <td>11:00</td>
+                    <td>11:15</td>
+                    </tr>
+                    <tr>
+                    <td>No time to Die</td>
+                    <td>14:00</td>
+                    <td>14:15</td>
+                    </tr>
+                    <tr>
+                    <td>No Time To Die</td>
+                    <td>17:00</td>
+                    <td>17:15</td>
+                    </tr>
+                    <tr>
+                    <td>No time To Die</td>
+                    <td>18:00</td>
+                    <td>18:15</td>
+                    </tr>
+                    <tr>
+                    <td>The Power of Dog</td>
+                    <td>11:30</td>
+                    <td>11:45</td>
+                    </tr>
+                    <tr>
+                    <td>The Power of Dog</td>
+                    <td>14:30</td>
+                    <td>14:45</td>
+                    </tr>
+                    <tr>
+                    <td>The Power of Dog</td>
+                    <td>17:30</td>
+                    <td>17:45</td>
+                    </tr>
+                    <tr>
+                    <td>The Power of Dog</td>
+                    <td>20:30</td>
+                    <td>20:45</td>
+                    </tr>
+                    <tr>
+                    <td>Rone's Gone Wrong</td>
+                    <td>12:00</td>
+                    <td>12:15</td>
+                    </tr>
+                    <tr>
+                    <td>Rone's Gone Wrong</td>
+                    <td>15:00</td>
+                    <td>15:15</td>
+                    </tr>
+                    <tr>
+                    <td>Rone's Gone Wrong</td>
+                    <td>18:00</td>
+                    <td>18:15</td>
+                    </tr>
+                    <tr>
+                    <td>Rone's Gone Wrong</td>
+                    <td>21:00</td>
+                    <td>21:15</td>
+                    </tr>
+                    <tr>
+                    <td>A Boy Called Christmas</td>
+                    <td>12:30</td>
+                    <td>12:45</td>
+                    </tr>
+                    <tr>
+                    <td>A Boy Called Christmas</td>
+                    <td>15:30</td>
+                    <td>15:45</td>
+                    </tr>
+                    <tr>
+                    <td>A Boy Called Christmas</td>
+                    <td>18:30</td>
+                    <td>18:45</td>
+                    </tr>
+                    <tr>
+                    <td>A Boy Called Christmas</td>
+                    <td>21:30</td>
+                    <td>21:45</td>
+                    </tr>
+                    <tr>
+                    <td>Paw Patrol: The Movie</td>
+                    <td>12:30</td>
+                    <td>12:45</td>
+                    </tr>
+                    <tr>
+                    <td>Paw Patrol: The Movie</td>
+                    <td>15:30</td>
+                    <td>15:45</td>
+                    </tr>
+                    <tr>
+                    <td>Paw Patrol: The Movie</td>
+                    <td>18:30</td>
+                    <td>18:45</td>
+                    </tr>
+                    <tr>
+                    <td>Paw Patrol: The Movie</td>
+                    <td>21:30</td>
+                    <td>21:45</td>
+                    </tr>
+                    
+                    
+                </table>
+            </p>
+            </div>
+
+            <div id="Thur" class="tabcontent">
+                <h3>Thurs</h3>
+                <p>
+                    <table class="table">
+                        <tr>
+                        <th>Movies</th>
+                        <th>Auckland</th>
+                        <th>Wellington</th>
+                        </tr>
+                        <tr>
+                        <td>Eternals</td>
+                        <td>10:00</td>
+                        <td>10:15</td>
+                        </tr>
+                        <tr>
+                        <td>Eternals</td>
+                        <td>13:00</td>
+                        <td>13:15</td>
+                        </tr>
+                        <tr>
+                        <td>Eternals</td>
+                        <td>16:00</td>
+                        <td>16:15</td>
+                        </tr>
+                        <tr>
+                        <td>Eternals</td>
+                        <td>19:00</td>
+                        <td>19:15</td>
+                        </tr>
+                        <tr>
+                        <td>Venom</td>
+                        <td>10:30</td>
+                        <td>10:45</td>
+                        </tr>
+                        <tr>
+                        <td>Venom</td>
+                        <td>13:30</td>
+                        <td>13:45</td>
+                        </tr>
+                        <tr>
+                        <td>Venom</td>
+                        <td>16:30</td>
+                        <td>16:45</td>
+                        </tr>
+                        <tr>
+                        <td>Venom</td>
+                        <td>19:30</td>
+                        <td>19:45</td>
+                        </tr>
+                        <tr>
+                        <td>No Time To Die</td>
+                        <td>11:00</td>
+                        <td>11:15</td>
+                        </tr>
+                        <tr>
+                        <td>No time to Die</td>
+                        <td>14:00</td>
+                        <td>14:15</td>
+                        </tr>
+                        <tr>
+                        <td>No Time To Die</td>
+                        <td>17:00</td>
+                        <td>17:15</td>
+                        </tr>
+                        <tr>
+                        <td>No time To Die</td>
+                        <td>18:00</td>
+                        <td>18:15</td>
+                        </tr>
+                        <tr>
+                        <td>The Power of Dog</td>
+                        <td>11:30</td>
+                        <td>11:45</td>
+                        </tr>
+                        <tr>
+                        <td>The Power of Dog</td>
+                        <td>14:30</td>
+                        <td>14:45</td>
+                        </tr>
+                        <tr>
+                        <td>The Power of Dog</td>
+                        <td>17:30</td>
+                        <td>17:45</td>
+                        </tr>
+                        <tr>
+                        <td>The Power of Dog</td>
+                        <td>20:30</td>
+                        <td>20:45</td>
+                        </tr>
+                        <tr>
+                        <td>Rone's Gone Wrong</td>
+                        <td>12:00</td>
+                        <td>12:15</td>
+                        </tr>
+                        <tr>
+                        <td>Rone's Gone Wrong</td>
+                        <td>15:00</td>
+                        <td>15:15</td>
+                        </tr>
+                        <tr>
+                        <td>Rone's Gone Wrong</td>
+                        <td>18:00</td>
+                        <td>18:15</td>
+                        </tr>
+                        <tr>
+                        <td>Rone's Gone Wrong</td>
+                        <td>21:00</td>
+                        <td>21:15</td>
+                        </tr>
+                        <tr>
+                        <td>A Boy Called Christmas</td>
+                        <td>12:30</td>
+                        <td>12:45</td>
+                        </tr>
+                        <tr>
+                        <td>A Boy Called Christmas</td>
+                        <td>15:30</td>
+                        <td>15:45</td>
+                        </tr>
+                        <tr>
+                        <td>A Boy Called Christmas</td>
+                        <td>18:30</td>
+                        <td>18:45</td>
+                        </tr>
+                        <tr>
+                        <td>A Boy Called Christmas</td>
+                        <td>21:30</td>
+                        <td>21:45</td>
+                        </tr>
+                        <tr>
+                        <td>Paw Patrol: The Movie</td>
+                        <td>12:30</td>
+                        <td>12:45</td>
+                        </tr>
+                        <tr>
+                        <td>Paw Patrol: The Movie</td>
+                        <td>15:30</td>
+                        <td>15:45</td>
+                        </tr>
+                        <tr>
+                        <td>Paw Patrol: The Movie</td>
+                        <td>18:30</td>
+                        <td>18:45</td>
+                        </tr>
+                        <tr>
+                        <td>Paw Patrol: The Movie</td>
+                        <td>21:30</td>
+                        <td>21:45</td>
+                        </tr>
+                        
+                        
+                    </table>
+                </p>
+            </div>
+
+            <div id="Fri" class="tabcontent">
+                <h3>Fri</h3>
+                <p>
+                    <table class="table">
+                        <tr>
+                        <th>Movies</th>
+                        <th>Auckland</th>
+                        <th>Wellington</th>
+                        </tr>
+                        <tr>
+                        <td>Eternals</td>
+                        <td>10:00</td>
+                        <td>10:15</td>
+                        </tr>
+                        <tr>
+                        <td>Eternals</td>
+                        <td>13:00</td>
+                        <td>13:15</td>
+                        </tr>
+                        <tr>
+                        <td>Eternals</td>
+                        <td>16:00</td>
+                        <td>16:15</td>
+                        </tr>
+                        <tr>
+                        <td>Eternals</td>
+                        <td>19:00</td>
+                        <td>19:15</td>
+                        </tr>
+                        <tr>
+                        <td>Venom</td>
+                        <td>10:30</td>
+                        <td>10:45</td>
+                        </tr>
+                        <tr>
+                        <td>Venom</td>
+                        <td>13:30</td>
+                        <td>13:45</td>
+                        </tr>
+                        <tr>
+                        <td>Venom</td>
+                        <td>16:30</td>
+                        <td>16:45</td>
+                        </tr>
+                        <tr>
+                        <td>Venom</td>
+                        <td>19:30</td>
+                        <td>19:45</td>
+                        </tr>
+                        <tr>
+                        <td>No Time To Die</td>
+                        <td>11:00</td>
+                        <td>11:15</td>
+                        </tr>
+                        <tr>
+                        <td>No time to Die</td>
+                        <td>14:00</td>
+                        <td>14:15</td>
+                        </tr>
+                        <tr>
+                        <td>No Time To Die</td>
+                        <td>17:00</td>
+                        <td>17:15</td>
+                        </tr>
+                        <tr>
+                        <td>No time To Die</td>
+                        <td>18:00</td>
+                        <td>18:15</td>
+                        </tr>
+                        <tr>
+                        <td>The Power of Dog</td>
+                        <td>11:30</td>
+                        <td>11:45</td>
+                        </tr>
+                        <tr>
+                        <td>The Power of Dog</td>
+                        <td>14:30</td>
+                        <td>14:45</td>
+                        </tr>
+                        <tr>
+                        <td>The Power of Dog</td>
+                        <td>17:30</td>
+                        <td>17:45</td>
+                        </tr>
+                        <tr>
+                        <td>The Power of Dog</td>
+                        <td>20:30</td>
+                        <td>20:45</td>
+                        </tr>
+                        <tr>
+                        <td>Rone's Gone Wrong</td>
+                        <td>12:00</td>
+                        <td>12:15</td>
+                        </tr>
+                        <tr>
+                        <td>Rone's Gone Wrong</td>
+                        <td>15:00</td>
+                        <td>15:15</td>
+                        </tr>
+                        <tr>
+                        <td>Rone's Gone Wrong</td>
+                        <td>18:00</td>
+                        <td>18:15</td>
+                        </tr>
+                        <tr>
+                        <td>Rone's Gone Wrong</td>
+                        <td>21:00</td>
+                        <td>21:15</td>
+                        </tr>
+                        <tr>
+                        <td>A Boy Called Christmas</td>
+                        <td>12:30</td>
+                        <td>12:45</td>
+                        </tr>
+                        <tr>
+                        <td>A Boy Called Christmas</td>
+                        <td>15:30</td>
+                        <td>15:45</td>
+                        </tr>
+                        <tr>
+                        <td>A Boy Called Christmas</td>
+                        <td>18:30</td>
+                        <td>18:45</td>
+                        </tr>
+                        <tr>
+                        <td>A Boy Called Christmas</td>
+                        <td>21:30</td>
+                        <td>21:45</td>
+                        </tr>
+                        <tr>
+                        <td>Paw Patrol: The Movie</td>
+                        <td>12:30</td>
+                        <td>12:45</td>
+                        </tr>
+                        <tr>
+                        <td>Paw Patrol: The Movie</td>
+                        <td>15:30</td>
+                        <td>15:45</td>
+                        </tr>
+                        <tr>
+                        <td>Paw Patrol: The Movie</td>
+                        <td>18:30</td>
+                        <td>18:45</td>
+                        </tr>
+                        <tr>
+                        <td>Paw Patrol: The Movie</td>
+                        <td>21:30</td>
+                        <td>21:45</td>
+                        </tr>
+                        
+                        
+                    </table>
+                </p>
+            </div>
+
+            <div id="Sat" class="tabcontent">
+                <h3>Sat</h3>
+                <p>
+                    <table class="table">
+                        <tr>
+                        <th>Movies</th>
+                        <th>Auckland</th>
+                        <th>Wellington</th>
+                        </tr>
+                        <tr>
+                        <td>Eternals</td>
+                        <td>10:00</td>
+                        <td>10:15</td>
+                        </tr>
+                        <tr>
+                        <td>Eternals</td>
+                        <td>13:00</td>
+                        <td>13:15</td>
+                        </tr>
+                        <tr>
+                        <td>Eternals</td>
+                        <td>16:00</td>
+                        <td>16:15</td>
+                        </tr>
+                        <tr>
+                        <td>Eternals</td>
+                        <td>19:00</td>
+                        <td>19:15</td>
+                        </tr>
+                        <tr>
+                        <td>Venom</td>
+                        <td>10:30</td>
+                        <td>10:45</td>
+                        </tr>
+                        <tr>
+                        <td>Venom</td>
+                        <td>13:30</td>
+                        <td>13:45</td>
+                        </tr>
+                        <tr>
+                        <td>Venom</td>
+                        <td>16:30</td>
+                        <td>16:45</td>
+                        </tr>
+                        <tr>
+                        <td>Venom</td>
+                        <td>19:30</td>
+                        <td>19:45</td>
+                        </tr>
+                        <tr>
+                        <td>No Time To Die</td>
+                        <td>11:00</td>
+                        <td>11:15</td>
+                        </tr>
+                        <tr>
+                        <td>No time to Die</td>
+                        <td>14:00</td>
+                        <td>14:15</td>
+                        </tr>
+                        <tr>
+                        <td>No Time To Die</td>
+                        <td>17:00</td>
+                        <td>17:15</td>
+                        </tr>
+                        <tr>
+                        <td>No time To Die</td>
+                        <td>18:00</td>
+                        <td>18:15</td>
+                        </tr>
+                        <tr>
+                        <td>The Power of Dog</td>
+                        <td>11:30</td>
+                        <td>11:45</td>
+                        </tr>
+                        <tr>
+                        <td>The Power of Dog</td>
+                        <td>14:30</td>
+                        <td>14:45</td>
+                        </tr>
+                        <tr>
+                        <td>The Power of Dog</td>
+                        <td>17:30</td>
+                        <td>17:45</td>
+                        </tr>
+                        <tr>
+                        <td>The Power of Dog</td>
+                        <td>20:30</td>
+                        <td>20:45</td>
+                        </tr>
+                        <tr>
+                        <td>Rone's Gone Wrong</td>
+                        <td>12:00</td>
+                        <td>12:15</td>
+                        </tr>
+                        <tr>
+                        <td>Rone's Gone Wrong</td>
+                        <td>15:00</td>
+                        <td>15:15</td>
+                        </tr>
+                        <tr>
+                        <td>Rone's Gone Wrong</td>
+                        <td>18:00</td>
+                        <td>18:15</td>
+                        </tr>
+                        <tr>
+                        <td>Rone's Gone Wrong</td>
+                        <td>21:00</td>
+                        <td>21:15</td>
+                        </tr>
+                        <tr>
+                        <td>A Boy Called Christmas</td>
+                        <td>12:30</td>
+                        <td>12:45</td>
+                        </tr>
+                        <tr>
+                        <td>A Boy Called Christmas</td>
+                        <td>15:30</td>
+                        <td>15:45</td>
+                        </tr>
+                        <tr>
+                        <td>A Boy Called Christmas</td>
+                        <td>18:30</td>
+                        <td>18:45</td>
+                        </tr>
+                        <tr>
+                        <td>A Boy Called Christmas</td>
+                        <td>21:30</td>
+                        <td>21:45</td>
+                        </tr>
+                        <tr>
+                        <td>Paw Patrol: The Movie</td>
+                        <td>12:30</td>
+                        <td>12:45</td>
+                        </tr>
+                        <tr>
+                        <td>Paw Patrol: The Movie</td>
+                        <td>15:30</td>
+                        <td>15:45</td>
+                        </tr>
+                        <tr>
+                        <td>Paw Patrol: The Movie</td>
+                        <td>18:30</td>
+                        <td>18:45</td>
+                        </tr>
+                        <tr>
+                        <td>Paw Patrol: The Movie</td>
+                        <td>21:30</td>
+                        <td>21:45</td>
+                        </tr>
+                        
+                        
+                    </table>
+                </p>
+            </div>
+
+            <div id="Sun" class="tabcontent">
+                <h3>Sun</h3>
+                <p>
+                    <table class="table">
+                        <tr>
+                        <th>Movies</th>
+                        <th>Auckland</th>
+                        <th>Wellington</th>
+                        </tr>
+                        <tr>
+                        <td>Eternals</td>
+                        <td>10:00</td>
+                        <td>10:15</td>
+                        </tr>
+                        <tr>
+                        <td>Eternals</td>
+                        <td>13:00</td>
+                        <td>13:15</td>
+                        </tr>
+                        <tr>
+                        <td>Eternals</td>
+                        <td>16:00</td>
+                        <td>16:15</td>
+                        </tr>
+                        <tr>
+                        <td>Eternals</td>
+                        <td>19:00</td>
+                        <td>19:15</td>
+                        </tr>
+                        <tr>
+                        <td>Venom</td>
+                        <td>10:30</td>
+                        <td>10:45</td>
+                        </tr>
+                        <tr>
+                        <td>Venom</td>
+                        <td>13:30</td>
+                        <td>13:45</td>
+                        </tr>
+                        <tr>
+                        <td>Venom</td>
+                        <td>16:30</td>
+                        <td>16:45</td>
+                        </tr>
+                        <tr>
+                        <td>Venom</td>
+                        <td>19:30</td>
+                        <td>19:45</td>
+                        </tr>
+                        <tr>
+                        <td>No Time To Die</td>
+                        <td>11:00</td>
+                        <td>11:15</td>
+                        </tr>
+                        <tr>
+                        <td>No time to Die</td>
+                        <td>14:00</td>
+                        <td>14:15</td>
+                        </tr>
+                        <tr>
+                        <td>No Time To Die</td>
+                        <td>17:00</td>
+                        <td>17:15</td>
+                        </tr>
+                        <tr>
+                        <td>No time To Die</td>
+                        <td>18:00</td>
+                        <td>18:15</td>
+                        </tr>
+                        <tr>
+                        <td>The Power of Dog</td>
+                        <td>11:30</td>
+                        <td>11:45</td>
+                        </tr>
+                        <tr>
+                        <td>The Power of Dog</td>
+                        <td>14:30</td>
+                        <td>14:45</td>
+                        </tr>
+                        <tr>
+                        <td>The Power of Dog</td>
+                        <td>17:30</td>
+                        <td>17:45</td>
+                        </tr>
+                        <tr>
+                        <td>The Power of Dog</td>
+                        <td>20:30</td>
+                        <td>20:45</td>
+                        </tr>
+                        <tr>
+                        <td>Rone's Gone Wrong</td>
+                        <td>12:00</td>
+                        <td>12:15</td>
+                        </tr>
+                        <tr>
+                        <td>Rone's Gone Wrong</td>
+                        <td>15:00</td>
+                        <td>15:15</td>
+                        </tr>
+                        <tr>
+                        <td>Rone's Gone Wrong</td>
+                        <td>18:00</td>
+                        <td>18:15</td>
+                        </tr>
+                        <tr>
+                        <td>Rone's Gone Wrong</td>
+                        <td>21:00</td>
+                        <td>21:15</td>
+                        </tr>
+                        <tr>
+                        <td>A Boy Called Christmas</td>
+                        <td>12:30</td>
+                        <td>12:45</td>
+                        </tr>
+                        <tr>
+                        <td>A Boy Called Christmas</td>
+                        <td>15:30</td>
+                        <td>15:45</td>
+                        </tr>
+                        <tr>
+                        <td>A Boy Called Christmas</td>
+                        <td>18:30</td>
+                        <td>18:45</td>
+                        </tr>
+                        <tr>
+                        <td>A Boy Called Christmas</td>
+                        <td>21:30</td>
+                        <td>21:45</td>
+                        </tr>
+                        <tr>
+                        <td>Paw Patrol: The Movie</td>
+                        <td>12:30</td>
+                        <td>12:45</td>
+                        </tr>
+                        <tr>
+                        <td>Paw Patrol: The Movie</td>
+                        <td>15:30</td>
+                        <td>15:45</td>
+                        </tr>
+                        <tr>
+                        <td>Paw Patrol: The Movie</td>
+                        <td>18:30</td>
+                        <td>18:45</td>
+                        </tr>
+                        <tr>
+                        <td>Paw Patrol: The Movie</td>
+                        <td>21:30</td>
+                        <td>21:45</td>
+                        </tr>
+                        
+                        
+                    </table>
+                </p>
+            </div>
+        </section>  
+        
+        <!-- footer -->
+        <footer>
+            <!-- footer-logo -->
+            <a href="index.html" class="logo">
+                Cinemax
+            </a>
+            <!-- copyright -->
+            <span class="copyright">
+                Copyright &copy; 2021
+            </span>
+            <span>
+                <a class="privacy_policy" href="privacyPolicy.html">Private Policy</a>
+            </span>
+        </footer>
+
+        <script>
+        function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+        }
+        </script>
+    
+    </body>
+</html> 

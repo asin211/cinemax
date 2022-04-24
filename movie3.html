@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- title -->
+        <title>Cinemax</title>
+        <!-- CSS Stylesheet -->
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- Fav icon -->
+        <link rel="shortcut icon" href="">
+        <!-- Import-poppins-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Import-Monoton-Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    
+    <!-- Using-Font-Awesome -->
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    
+    
+    </head>
+        <body>
+            <!-- Navigation -->
+            <nav class="navigation">
+                <!-- menu btn -->
+                <input type="checkbox" class="menu-btn" id="menu-btn">
+                <label for="menu-btn" class="menu-icon">
+                    <span class="nav-icon"></span>
+                </label>
+    
+                <!-- logo -->
+                <a href="index.html" class="logo">
+                    Cinemax
+                </a>
+                <!-- menu -->
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="movies.html">Movies</a></li>
+                    <li><a href="cinema.html">Cinema</a></li>
+                    <li><a href="rewards.html">Rewards</a></li>
+                </ul>
+    
+                <!-- search box -->
+                <form action="" class="search-box">
+                    <!-- input -->
+                    <input type="text" name="search" placeholder="Search Movie" class="search-input" required/>
+                    <!-- btn -->
+                    <button type="submit">
+                        <i class="fas fa-search"></i>
+                    </button class>
+                </form>
+            </nav>
+            <!-- nav end --> 
+
+
+
+        <!-- movie-banner -->
+        <section class="movie-banner">
+
+            <!-- img -->
+            <div class="m-banner-img">
+                <img src="images/No time to Die.png" alt="No Time To Die">
+            </div>
+
+            <!-- content -->
+            <div class="banner-container">
+
+                <!-- title-container -->
+                <div class="title-container">
+                    <!-- title-top -->
+                    <div class="title-top"></div>
+                        <!-- title -->
+                        <div class="movie-title">
+                            <h1>No Time To Die</h1>
+                        </div>
+                        <!-- more-about-movie -->
+                        <div class="more-about-movie">
+                            <span class="rating">M</span>
+                            <span>2021</span>
+                            <span>163 min</span>
+                        </div>
+                        <!-- language -->
+                        <div class="language">
+                            <span>English</span>
+                        </div>
+                    </div>
+
+                    <!-- title-bottom -->
+                    <div class="title-bottom">
+                        <!-- category -->
+                        <div class="category">
+                            <strong>Category</strong><br>
+                            <a href="#">Violence</a>
+                        </div>
+                        <!-- trailer-btn -->
+                        <a href="https://www.youtube.com/embed/BIhNsAtPbPI" target="blank" class="watch-btn">Watch Trailer</a>
+                    </div>
+                </div>
+
+                <!-- play-btn -->
+                <div class="play-btn-container">
+                    <div class="play-btn">
+                        <a href="#">
+                            <i class="fas fa-play"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- movie video  -->
+                <div id="play" class="play">
+                    <!-- close-btn -->
+                    <a href="" class="close-movie">
+                        <i class="fas fa-times"></i>
+                    </a>
+                    <!-- movie -->
+                    <div class="play-movie">
+                        <!-- optioanl-you-tube-link -->
+                        <iframe width="1100" height="700" src="https://www.youtube.com/embed/BIhNsAtPbPI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Banner-end -->
+
+
+        <!-- details -->
+        <section class="movie-details">
+            <strong>No Time To Die</strong>
+            <p>In No Time To Die, Bond has left active service and is enjoying a tranquil life in Jamaica. His peace is short-lived when his old friend Felix Leiter from the CIA turns up asking for help. The mission to rescue a kidnapped scientist turns out to be far more treacherous than expected, leading Bond onto the trail of a mysterious villain armed with dangerous new technology. 
+            </p>
+        </section>
+
+        <!-- footer -->
+        <footer>
+            <!-- footer-logo -->
+            <a href="index.html" class="logo">
+                Cinemax
+            </a>
+            <!-- copyright -->
+            <span class="copyright">
+                Copyright &copy; 2021
+            </span>
+            <span>
+                <a class="privacy_policy" href="privacyPolicy.html">Private Policy</a>
+            </span>
+        </footer>
+
+
+
+
+    <!-- jQuery -->
+    <script src="js/jQuery.js"></script>
+
+    <script>
+        //   menu-btn-fixed-when-scroll 
+         $(window).scroll(function(){
+            if($(document).scrollTop() > 20){
+                $('.navigation').addClass('fix-icon');
+            }
+            else{
+                $('.navigation').removeClass('fix-icon');
+            }
+            });
+
+        // popup-open    
+        $(document).on('click','.play-btn a',function(){
+            $('.play').addClass('active-popup');
+        });
+
+        // popup-close 
+        $(document).on('click','.close-movie',function(){
+            $('.play').removeClass('active-popup');
+        });
+
+        // auto-play-when-popup-open 
+        $('.play-btn a').click(function(){
+            $('#m-video')[0].play();
+        });
+
+        // close-video-when-popup-close 
+        $('.close-movie').click(function(){
+            $('#m-video')[0].pause();
+        });
+
+
+    </script>
+
+</body>
+
+</html>
